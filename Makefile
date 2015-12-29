@@ -18,29 +18,29 @@ ifeq ($(COMPILE_PLATFORM),darwin)
 endif
 
 ifndef BUILD_STANDALONE
-  BUILD_STANDALONE = 0
+  BUILD_STANDALONE = 
 endif
 ifndef BUILD_CLIENT
-  BUILD_CLIENT     = 0
+  BUILD_CLIENT     = 
 endif
 ifndef BUILD_CLIENT_SMP
-  BUILD_CLIENT_SMP = 0
+  BUILD_CLIENT_SMP = 
 endif
 ifndef BUILD_SERVER
-  BUILD_SERVER     = 0
+  BUILD_SERVER     = 
 endif
 ifndef BUILD_GAME_SO
-  BUILD_GAME_SO    = 0
+  BUILD_GAME_SO    = 
 endif
 ifndef BUILD_GAME_QVM
-  BUILD_GAME_QVM   = 1
+  BUILD_GAME_QVM   = 
 endif
 ifndef BUILD_MISSIONPACK
-  BUILD_MISSIONPACK= 0
+  BUILD_MISSIONPACK= 
 endif
 
 ifneq ($(PLATFORM),darwin)
-  BUILD_CLIENT_SMP = 0
+  BUILD_CLIENT_SMP = 
 endif
 
 #############################################################################
