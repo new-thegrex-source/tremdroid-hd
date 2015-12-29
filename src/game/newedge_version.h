@@ -1,0 +1,3 @@
+#ifndef NEWEDGE_MOD_VERSION
+#define NEWEDGE_MOD_VERSION "1.3"
+#endif
